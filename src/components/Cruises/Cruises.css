@@ -10,7 +10,8 @@
     display: flex;
 }
 
-.topLeft {
+.topLeft,
+.top {
     flex: 3;
     display: flex;
     align-items: flex-start;
@@ -19,13 +20,19 @@
     padding: 28px;
 }
 
-.topLeft h1 {
+.top {
+    align-items: center;
+}
+
+.topLeft h1,
+.top h1 {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.topLeft p {
+.topLeft p,
+.top p {
     margin-bottom: 10px;
     font-size: 15px;
 }
@@ -36,7 +43,8 @@
     justify-content: flex-end;
 }
 
-.topLeft button {
+.topLeft button,
+.top button {
     border-radius: 8px;
     background: #285998;
     padding: 7px 20px;
@@ -151,4 +159,40 @@
     position: relative;
     width: 45%;
     height: 45%;
+}
+
+.resCruCon {
+    padding: 50px 0;
+}
+
+.cruiseImages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cruiseImage {
+    width: 300px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cruiseImage img {
+    width: 70%;
+}
+
+@media screen and (max-width: 550px) {
+    .top h1 {
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .top h1 {
+        font-size: 1.7rem;
+    }
 }
