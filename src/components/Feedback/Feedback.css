@@ -1,0 +1,105 @@
+.feedbackContainer {
+    padding: 50px 100px;
+}
+
+.feedbackHead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.feedbackHead h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feedbackHead p {
+    font-weight: 400;
+    text-align: center;
+}
+
+.allFeeds {
+    display: flex !important;
+    justify-content: center;
+}
+
+.feedbackItem {
+    padding: 25px;
+    height: 250px;
+    width: 250px !important;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.1);
+    margin: 25px 50px 45px;
+}
+
+.feedbackImage {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedbackImage img {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.feedbackDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.feedbackName {
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.feedbackReview {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.slick-dots li button::before {
+    font-size: 18px !important;
+}
+
+.slick-dots li .slick-active button:before {
+    content: "." !important;
+}
+
+.slick-dots li button:before {
+    content: "•" !important;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 850px) {
+    .feedbackContainer {
+        padding: 50px;
+    }
+
+    .feedbackHead h1 {
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .feedbackContainer {
+        padding: 25px;
+    }
+
+    .feedbackHead h1 {
+        font-size: 1.7rem;
+    }
+}

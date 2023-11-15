@@ -1,0 +1,112 @@
+.weddingContainer {
+    display: flex;
+    height: 100vh;
+    padding: 60px 0;
+}
+
+.weddingLeft {
+    flex: 4;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.leftInfo {
+    position: absolute;
+    top: -15px;
+    right: -67px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.10);
+}
+
+.leftInfo h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.weddingCenter {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+}
+
+.centerInfo {
+    position: absolute;
+    bottom: -20px;
+    right: -67px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.10);
+}
+
+.centerInfo h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.weddingRight {
+    flex: 4;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.rightInfo {
+    position: absolute;
+    top: -20px;
+    left: -67px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.10);
+}
+
+.rightInfo h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.weddingImage {
+    width: 100%;
+}
+
+.weddingImage img {
+    width: 100%;
+    height: 70vh;
+    box-shadow: 9px 9px 35px 0px rgba(0, 0, 0, 0.25);
+}
+
+.weddingInfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.weddingInfo h1 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.weddingInfo p {
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.weddingInfo button {
+    border-radius: 8px;
+    background: #285998;
+    padding: 7px 20px;
+    color: white;
+}

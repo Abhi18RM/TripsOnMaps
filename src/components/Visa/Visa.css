@@ -1,0 +1,58 @@
+.visaContainer {
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.visaHead {
+    margin-bottom: 30px;
+}
+
+.visaHead h1 {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.visaHead p {
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.visaImg {
+    width: 100%;
+    height: 100%;
+}
+
+.visaImg img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .visaContainer {
+        padding: 50px;
+    }
+
+    .visaHead h1 {
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .visaContainer {
+        padding: 25px;
+    }
+
+    .visaHead h1 {
+        font-size: 1.7rem;
+    }
+
+    .visaHead p {
+        font-size: 0.9rem;
+    }
+}

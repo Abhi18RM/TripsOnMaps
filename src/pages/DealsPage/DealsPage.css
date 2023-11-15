@@ -1,0 +1,174 @@
+.dealsPage-container {
+    background-image: url("/public/images/landMain/DealsPagebg.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.dp-logo {
+    position: absolute;
+    left: 0%;
+    top: -1%;
+}
+/* .dp-left {
+    flex: 1;
+} */
+.dp-logo img {
+    width: 120px;
+    height: 120px;
+}
+.dp-btn {
+    position: absolute;
+    right: 1%;
+    top: 3%;
+}
+.dp-btn button {
+    padding: 5px 25px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #285998;
+    color: white;
+}
+.explore-header {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.dp-content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: 170px;
+    /* height: calc(100% - 56px); */
+    /* background-color: aqua; */
+}
+
+.dp-content .explore {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.dp-content h1 {
+    color: white;
+    font-size: 36px;
+    position: relative;
+    left: 10%;
+    width: 100%;
+}
+
+.dp-content .para {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+
+.dp-content .para p {
+    position: relative;
+    left: 6%;
+    max-width: 50%;
+    top: 15px;
+    color: white;
+}
+
+.dp-content .para .box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: white;
+    right: -13%;
+    top: -30px;
+    padding: 8px;
+}
+.content2 .box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: white;
+    left: 40%;
+    top: 191px;
+    padding: 8px;
+}
+.content2 .box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 8px;
+    left: 100.5%;
+    top: 191px;
+}
+.content2 {
+    display: flex;
+    gap: 152px;
+    position: relative;
+    left: -24%;
+}
+.dp-content .square {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    border-bottom: 7px solid white;
+    border-left: 7px solid white;
+    left: 12.9%;
+    top: -15px;
+}
+
+.dp-content .para .box1 h1 {
+    color: #000000;
+    font-weight: 550;
+    font-size: 32px;
+    position: relative;
+    left: 0%;
+    max-width: 100%;
+    text-align: center;
+}
+.dp-content .para .box1 .box1p {
+    position: relative;
+    left: 0;
+    max-width: 100%;
+    top: 0;
+    color: black;
+    text-align: center;
+    margin-top: 5.5px;
+}
+
+.content2 .box2 h1 {
+    color: #000000;
+    font-weight: 550;
+}
+.content2 .box2 p {
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5.5%;
+}
+.content2 .box3 h1 {
+    color: #000000;
+    font-weight: 550;
+}
+.content2 .box3 p {
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5.5%;
+}

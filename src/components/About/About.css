@@ -1,0 +1,86 @@
+.abtContainer {
+    padding: 50px 100px;
+    display: flex;
+}
+
+.abtInfo {
+    flex: 3;
+}
+
+.abtImg {
+    flex: 1;
+}
+
+.abtImg img {
+    height: 400px;
+}
+
+.abtInfoHeading h1 {
+    color: #000;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.abtInfoContent {
+    padding: 20px 50px 20px 20px;
+}
+
+.abtInfoBoxes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 100px 20px 20px;
+    justify-content: center;
+}
+
+.abtInfoBox {
+    padding: 2px 8px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 2px solid #285998;
+}
+
+@media screen and (max-width: 1000px) {
+    .abtContainer {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .abtContainer {
+        flex-direction: column;
+    }
+
+    .abtInfoHeading h1 {
+        font-size: 2.1rem;
+    }
+
+    .abtInfoContent,
+    .abtInfoBoxes {
+        padding: 20px;
+    }
+
+    .abtImg {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .abtContainer {
+        padding: 25px;
+    }
+
+    .abtInfoHeading h1 {
+        font-size: 1.7rem;
+    }
+
+    .abtInfoContent,
+    .abtInfoBoxes {
+        font-size: 0.9rem;
+    }
+
+    .abtImg img {
+        height: 300px;
+        width: 75vw;
+    }
+}
