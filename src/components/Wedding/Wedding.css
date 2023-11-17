@@ -101,6 +101,10 @@
     margin-bottom: 10px;
 }
 
+.weddingInfoRes p {
+    margin: 10px;
+}
+
 .weddingInfo button,
 .weddingInfoRes button {
     border-radius: 8px;
@@ -154,7 +158,7 @@
 }
 
 .middleInfo {
-    bottom: 200px;
+    bottom: 150px;
     left: 10%;
 }
 
@@ -175,5 +179,9 @@
     .middleInfo h3,
     .bottomInfo h3 {
         font-size: 15px;
+    }
+
+    .weddingImg img {
+        height: 300px;
     }
 }

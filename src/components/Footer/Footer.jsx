@@ -3,13 +3,11 @@ import "./Footer.css";
 import { Twitter, Facebook, Instagram } from "@mui/icons-material";
 
 const Footer = () => {
-    const PF = process.env.REACT_APP_PUBLIC_FOLDER;
-
     return (
         <div className="footerContainer" id="footer">
             <div className="footerDetails">
                 <div className="footerInfo">
-                    <img src={PF + `logo.png`} alt="" />
+                    <img src={`/images/logo.png`} alt="" />
                     <p>Lorem ipsum dolor sit amet, consectetur</p>
                     <div className="footerIcons">
                         <div className="footerIcon">

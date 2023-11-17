@@ -13,6 +13,7 @@
     left: 0%;
     top: -1%;
 }
+
 /* .dp-left {
     flex: 1;
 } */
@@ -20,11 +21,13 @@
     width: 120px;
     height: 120px;
 }
+
 .dp-btn {
     position: absolute;
-    right: 1%;
+    right: 3%;
     top: 3%;
 }
+
 .dp-btn button {
     padding: 5px 25px;
     font-size: 15px;
@@ -32,7 +35,10 @@
     border-radius: 5px;
     background-color: #285998;
     color: white;
+    border: none;
+    cursor: pointer;
 }
+
 .explore-header {
     font-size: 24px;
     font-weight: 600;
@@ -84,13 +90,13 @@
     align-items: center;
     position: relative;
     width: 250px;
-    height: 150px;
     border-radius: 20px;
     background-color: white;
     right: -13%;
     top: -30px;
     padding: 8px;
 }
+
 .content2 .box2 {
     display: flex;
     flex-direction: column;
@@ -104,6 +110,7 @@
     top: 191px;
     padding: 8px;
 }
+
 .content2 .box3 {
     display: flex;
     flex-direction: column;
@@ -117,12 +124,14 @@
     left: 100.5%;
     top: 191px;
 }
+
 .content2 {
     display: flex;
     gap: 152px;
     position: relative;
     left: -24%;
 }
+
 .dp-content .square {
     position: relative;
     width: 200px;
@@ -142,6 +151,7 @@
     max-width: 100%;
     text-align: center;
 }
+
 .dp-content .para .box1 .box1p {
     position: relative;
     left: 0;
@@ -156,19 +166,126 @@
     color: #000000;
     font-weight: 550;
 }
+
 .content2 .box2 p {
     color: #000000;
     font-weight: 400;
     text-align: center;
     margin-top: 5.5%;
 }
+
 .content2 .box3 h1 {
     color: #000000;
     font-weight: 550;
 }
+
 .content2 .box3 p {
     color: #000000;
     font-weight: 400;
     text-align: center;
     margin-top: 5.5%;
+}
+
+
+@media only screen and (max-width: 1250px) {
+
+    .dealsPage-container {
+        background-image: url('/public/images/landMain/DealsPagebg.png');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        overflow-y: scroll;
+    }
+
+    .dp-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        height: 100%;
+        top: auto;
+        margin-top: 170px;
+        margin-bottom: 50px;
+        /* height: calc(100% - 56px); */
+        /* background-color: aqua; */
+    }
+
+    .dp-content .para {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+    }
+
+    .dp-content .para p {
+        max-width: 80%;
+        left: auto;
+    }
+
+    .dp-content .square {
+        display: none;
+
+    }
+
+    .dp-content .explore {
+        position: relative;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dp-content .para .box1 {
+
+        width: 250px;
+        padding: 25px;
+        border-radius: 20px;
+        background-color: white;
+        right: auto;
+        top: auto;
+        margin-top: 50px;
+    }
+
+    .content2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        width: 100vw;
+        left: auto;
+        position: relative;
+    }
+
+    .content2 .box2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 250px;
+        height: 150px;
+        border-radius: 20px;
+        background-color: white;
+        left: auto;
+        top: auto;
+        padding: 8px;
+    }
+
+    .content2 .box3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 250px;
+        height: 150px;
+        border-radius: 20px;
+        background-color: white;
+        padding: 8px;
+        left: auto;
+        top: auto;
+    }
 }

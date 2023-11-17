@@ -2,8 +2,6 @@ import React from "react";
 import "./About.css";
 
 const About = () => {
-    const PF = process.env.REACT_APP_PUBLIC_FOLDER;
-
     return (
         <div className="abtContainer" id="about">
             <div className="abtInfo">
@@ -32,7 +30,7 @@ const About = () => {
                 </div>
             </div>
             <div className="abtImg">
-                <img src={PF + `abtImg.png`} alt="" />
+                <img src={`/images/abtImg.png`} alt="" />
             </div>
         </div>
     );

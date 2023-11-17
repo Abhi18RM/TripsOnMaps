@@ -2,6 +2,7 @@
     height: 35vh;
     background: #061d27;
     display: flex;
+    width: 100vw;
 }
 
 .footerDetails {
@@ -50,7 +51,7 @@
 
 .aboutItem {
     color: #fff;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
 }
 
@@ -89,12 +90,17 @@
 }
 
 @media screen and (max-width: 750px) {
-    .aboutItems,
+
+    .footerDetails {
+        flex: 3;
+    }
+
+    .footerAbout,
     .footerSupport {
         display: none;
     }
 
-    .contactItems {
+    /* .contactItems {
         padding-right: 20px;
-    }
+    } */
 }

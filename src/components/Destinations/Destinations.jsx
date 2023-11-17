@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 import { ArrowLeft, ArrowRight } from "@mui/icons-material";
 
 const Destinations = () => {
-    const PF = process.env.REACT_APP_PUBLIC_FOLDER;
     const slider = useRef();
 
     const places = [
@@ -117,7 +116,7 @@ const Destinations = () => {
                         <div className="allItems" key={p.id}>
                             <div className="destinationItem">
                                 <div className="destinationImage">
-                                    <img src={PF + p.img} alt="" />
+                                    <img src={"/images/" + p.img} alt="" />
                                     <h3 className="destinationName">
                                         {p.name}
                                     </h3>

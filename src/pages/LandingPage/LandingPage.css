@@ -18,10 +18,12 @@
     height: 255.453px;
     animation: fadeIn 0.5s ease-in-out;
 }
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -51,6 +53,7 @@
     font-size: 25px;
     font-style: normal;
 }
+
 .landInfo {
     color: white;
     visibility: hidden;
@@ -65,10 +68,12 @@
     visibility: visible;
     animation: fadeInContent 1s ease-in-out;
 }
+
 @keyframes fadeInContent {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -79,12 +84,29 @@
     bottom: 20px;
     right: 20px;
 }
+
 .btn button {
     padding: 6px 30px;
     border-radius: 8px;
     background: #285998;
-    font-size: 18px;
+    font-size: 16px;
     color: #e9e9e9;
     font-weight: 400;
     border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+    .landLogo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .landHeading h1 {
+        font-size: 2.1rem;
+    }
+
+    .landInfo p {
+        font-size: 0.9rem;
+    }
 }

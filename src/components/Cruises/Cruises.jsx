@@ -37,34 +37,34 @@ const Cruises = () => {
                         </div>
                     </div>
                     <div className="topCenter">
-                        <img src={PF + "/cruises/celebrity.png"} alt="" />
+                        <img src={"/images/cruises/celebrity.png"} alt="" />
                     </div>
                     <div className="topRight">
-                        <img src={PF + "/cruises/princess.png"} alt="" />
+                        <img src={"/images/cruises/princess.png"} alt="" />
                     </div>
                 </div>
                 <div className="cruisesBottom">
                     <div className="bottomLeft">
                         <img
                             className="shipImg"
-                            src={PF + "/cruises/bottomleft.png"}
+                            src={"/images/cruises/bottomleft.png"}
                             alt=""
                         />
                         <div className="bLTopL">
-                            <img src={PF + "/cruises/norwegian.png"} alt="" />
+                            <img src={"/images/cruises/norwegian.png"} alt="" />
                         </div>
                         <div className="bLBottomR">
-                            <img src={PF + "/cruises/royal.png"} alt="" />
+                            <img src={"/images/cruises/royal.png"} alt="" />
                         </div>
                     </div>
                     <div className="bottomRight">
                         <img
-                            src={PF + "/cruises/bottomright.png"}
+                            src={"/images/cruises/bottomright.png"}
                             alt=""
                             className="shipImg"
                         />
                         <div className="bRTopL">
-                            <img src={PF + "/cruises/holland.png"} alt="" />
+                            <img src={"/images/cruises/holland.png"} alt="" />
                         </div>
                     </div>
                 </div>
@@ -93,25 +93,25 @@ const Cruises = () => {
                         className="cruiseImage"
                         style={{ backgroundColor: "#E0F7FF" }}
                     >
-                        <img src={PF + "/cruises/princess.png"} alt="" />
+                        <img src={"/images/cruises/princess.png"} alt="" />
                     </div>
                     <div className="cruiseImage">
-                        <img src={PF + "/cruises/celebrity.png"} alt="" />
+                        <img src={"/images/cruises/celebrity.png"} alt="" />
                     </div>
                     <div
                         className="cruiseImage"
                         style={{ backgroundColor: "#E0F7FF" }}
                     >
-                        <img src={PF + "/cruises/norwegian.png"} alt="" />
+                        <img src={"/images/cruises/norwegian.png"} alt="" />
                     </div>
                     <div className="cruiseImage">
-                        <img src={PF + "/cruises/royal.png"} alt="" />
+                        <img src={"/images/cruises/royal.png"} alt="" />
                     </div>
                     <div
                         className="cruiseImage"
                         style={{ backgroundColor: "#090E2C" }}
                     >
-                        <img src={PF + "/cruises/holland.png"} alt="" />
+                        <img src={"/images/cruises/holland.png"} alt="" />
                     </div>
                 </div>
             </div>

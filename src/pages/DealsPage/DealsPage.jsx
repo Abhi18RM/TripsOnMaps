@@ -1,17 +1,19 @@
 import React from "react";
 import "./DealsPage.css";
+import { Link } from "react-router-dom";
 
 const DealsPage = () => {
-    const PF = process.env.REACT_APP_PUBLIC_FOLDER;
     return (
         <div className="dealsPage-container">
             <div className="dp-left">
                 <div>
                     <div className="dp-logo">
-                        <img src={PF + `landMain/logo.png`} alt="" />
+                        <img src={`/images/landMain/logo.png`} alt="" />
                     </div>
                     <div className="dp-btn">
-                        <button>Go Back</button>
+                        <Link to="/">
+                            <button>Go Back</button>
+                        </Link>
                     </div>
                 </div>
 

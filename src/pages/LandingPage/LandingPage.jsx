@@ -5,7 +5,6 @@ import { Typewriter } from "react-simple-typewriter";
 import { Link } from "react-router-dom";
 
 const LandingPage = () => {
-    const PF = process.env.REACT_APP_PUBLIC_FOLDER;
     const [isLogoVisible, setLogoVisible] = useState(false);
     const [isHeadingVisible, setHeadingVisible] = useState(false);
     const [isInfoVisible, setInfoVisible] = useState(false);
@@ -37,14 +36,20 @@ const LandingPage = () => {
         <div className="landContainer">
             {isLogoVisible && (
                 <img
-                    src={PF + `landMain/logo.png`}
+                    src={`/images/landMain/logo.png`}
                     alt="logo.png"
                     className="landLogo visible"
                 />
             )}
 
             <div className={`landHeading ${isHeadingVisible ? "fade-in" : ""}`}>
-                <h1 style={{ margin: "auto 0", fontWeight: "600" }}>
+                <h1
+                    style={{
+                        margin: "auto 0",
+                        fontWeight: "600",
+                        textAlign: "center",
+                    }}
+                >
                     Discover Great {/* Add a space character here */}
                     <span
                         style={{
@@ -67,7 +72,7 @@ const LandingPage = () => {
                 </h1>
             </div>
             <div className={`landInfo ${isInfoVisible ? "fade-in" : ""}`}>
-                <p>
+                <p style={{ textAlign: "center" }}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation

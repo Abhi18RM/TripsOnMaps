@@ -2,8 +2,6 @@ import React from "react";
 import "./Visa.css";
 
 const Visa = () => {
-    const PF = process.env.REACT_APP_PUBLIC_FOLDER;
-
     return (
         <div className="visaContainer" id="visa">
             <div className="visaHead">
@@ -14,7 +12,7 @@ const Visa = () => {
                 </p>
             </div>
             <div className="visaImg">
-                <img src={PF + "/visa.png"} alt="" />
+                <img src={"/images/visa.png"} alt="" />
             </div>
         </div>
     );

@@ -6,22 +6,18 @@ import ClearIcon from "@mui/icons-material/Clear";
 import { useState } from "react";
 
 const Navbar = () => {
-    const PF = process.env.REACT_APP_PUBLIC_FOLDER;
-
     const [navExpanded, isNavExpanded] = useState(false);
 
     const handleClick = () => {
         isNavExpanded(!navExpanded);
     };
 
-    console.log(navExpanded);
-
     return (
         <div className="nav-container">
             <div className="left">
                 <div className="logo">
                     <Link to="/">
-                        <img src={PF + `logo.png`} alt="" />
+                        <img src={`/images/logo.png`} alt="" />
                     </Link>
                 </div>
             </div>
@@ -43,7 +39,9 @@ const Navbar = () => {
                         <a href="#wedding">Wedding Destinations</a>
                     </li>
                     <li>
-                        <a href="/deals">Deals</a>
+                        <Link to="/deals">
+                            <a href="/#">Deals</a>
+                        </Link>
                     </li>
                     <li>
                         <a href="#cruises">Cruises</a>
@@ -78,7 +76,9 @@ const Navbar = () => {
                                 <a href="#wedding">Wedding Destinations</a>
                             </li>
                             <li>
-                                <a href="/#">Deals</a>
+                                <Link to="/deals">
+                                    <a href="/#">Deals</a>
+                                </Link>
                             </li>
                             <li>
                                 <a href="#cruises">Cruises</a>

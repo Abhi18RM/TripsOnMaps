@@ -7,8 +7,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Feedback = () => {
-    const PF = process.env.REACT_APP_PUBLIC_FOLDER;
-
     const data = [
         {
             id: 1,
@@ -92,10 +90,10 @@ const Feedback = () => {
                 <div className="feedbackItems">
                     <Slider {...settings}>
                         {data.map((d) => (
-                            <div className="allFeeds">
-                                <div className="feedbackItem" key={d.id}>
+                            <div className="allFeeds" key={d.id}>
+                                <div className="feedbackItem">
                                     <div className="feedbackImage">
-                                        <img src={PF + d.img} alt="" />
+                                        <img src={"/images" + d.img} alt="" />
                                     </div>
                                     <div className="feedbackDetails">
                                         <p className="feedbackName">{d.name}</p>

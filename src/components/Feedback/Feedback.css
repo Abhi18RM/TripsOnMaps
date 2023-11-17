@@ -71,6 +71,10 @@
     padding-bottom: 20px;
 }
 
+.feedbackStars {
+    display: flex;
+}
+
 .slick-dots li button::before {
     font-size: 18px !important;
 }

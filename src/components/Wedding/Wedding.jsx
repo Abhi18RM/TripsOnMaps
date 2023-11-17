@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./Wedding.css";
 
 const Wedding = () => {
-    const PF = process.env.REACT_APP_PUBLIC_FOLDER;
     const [windowSize, setWindowSize] = useState(getWindowSize());
 
     useEffect(() => {
@@ -27,7 +26,7 @@ const Wedding = () => {
             <div className="weddingContainer" id="wedding">
                 <div className="weddingLeft">
                     <div className="weddingImage">
-                        <img src={PF + `/weddings/italy.png`} alt="" />
+                        <img src={`/images/weddings/italy.png`} alt="" />
                     </div>
                     <div className="leftInfo">
                         <h3>The Amalfi Coast, Italy</h3>
@@ -43,7 +42,7 @@ const Wedding = () => {
                         <button>See More</button>
                     </div>
                     <div className="weddingImage">
-                        <img src={PF + "/weddings/greece.png"} alt="" />
+                        <img src={"/images/weddings/greece.png"} alt="" />
                     </div>
                     <div className="centerInfo">
                         <h3>Santorini, Greece</h3>
@@ -51,7 +50,7 @@ const Wedding = () => {
                 </div>
                 <div className="weddingRight">
                     <div className="weddingImage">
-                        <img src={PF + "/weddings/spain.png"} alt="" />
+                        <img src={"/images/weddings/spain.png"} alt="" />
                     </div>
                     <div className="rightInfo">
                         <h3>Marbella, Spain</h3>
@@ -73,7 +72,7 @@ const Wedding = () => {
                     <button>See More</button>
                 </div>
                 <div className="weddingImg">
-                    <img src={PF + `/weddings/italy.png`} alt="" />
+                    <img src={`/images/weddings/italy.png`} alt="" />
                     <div className="topInfo">
                         <h3>The Amalfi Coast, Italy</h3>
                     </div>
@@ -85,7 +84,7 @@ const Wedding = () => {
                         transform: "translateY(-50px)",
                     }}
                 >
-                    <img src={PF + "/weddings/greece.png"} alt="" />
+                    <img src={"/images/weddings/greece.png"} alt="" />
                     <div className="middleInfo">
                         <h3>Santorini, Greece</h3>
                     </div>
@@ -96,7 +95,7 @@ const Wedding = () => {
                         transform: "translateY(-100px)",
                     }}
                 >
-                    <img src={PF + "/weddings/spain.png"} alt="" />
+                    <img src={"/images/weddings/spain.png"} alt="" />
                     <div className="bottomInfo">
                         <h3>Marbella, Spain</h3>
                     </div>
