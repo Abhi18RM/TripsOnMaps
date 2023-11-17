@@ -11,7 +11,7 @@ const Contact = () => {
     const [message, setMessage] = useState("");
     const [loading, setLoading] = useState(null);
 
-    useEffect(() => emailjs.init("NqhB2N2WS3DqQzpfS"), []);
+    useEffect(() => emailjs.init(process.env.REACT_APP_PUBLIC_KEY), []);
 
     const setEmpty = () => {
         setName("");
