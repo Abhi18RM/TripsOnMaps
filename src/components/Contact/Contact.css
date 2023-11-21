@@ -95,4 +95,8 @@
     .contactButton {
         font-size: 15px;
     }
+
+    .contactInfo p {
+        font-size: 0.9rem;
+    }
 }

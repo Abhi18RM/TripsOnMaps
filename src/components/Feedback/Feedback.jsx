@@ -105,30 +105,35 @@ const Feedback = () => {
                                                 style={{
                                                     color: "gold",
                                                     padding: "5px",
+                                                    fontSize: "30px",
                                                 }}
                                             />
                                             <Star
                                                 style={{
                                                     color: "gold",
                                                     padding: "5px",
+                                                    fontSize: "30px",
                                                 }}
                                             />
                                             <Star
                                                 style={{
                                                     color: "gold",
                                                     padding: "5px",
+                                                    fontSize: "30px",
                                                 }}
                                             />
                                             <Star
                                                 style={{
                                                     color: "gold",
                                                     padding: "5px",
+                                                    fontSize: "30px",
                                                 }}
                                             />
                                             <Star
                                                 style={{
                                                     color: "gold",
                                                     padding: "5px",
+                                                    fontSize: "30px",
                                                 }}
                                             />
                                         </div>

@@ -195,4 +195,9 @@
     .top h1 {
         font-size: 1.7rem;
     }
+
+    .topLeft p,
+    .top p {
+        font-size: 0.9rem;
+    }
 }

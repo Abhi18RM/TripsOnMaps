@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./Cruises.css";
 
 const Cruises = () => {
-    const PF = process.env.REACT_APP_PUBLIC_FOLDER;
     const [windowSize, setWindowSize] = useState(getWindowSize());
 
     useEffect(() => {
