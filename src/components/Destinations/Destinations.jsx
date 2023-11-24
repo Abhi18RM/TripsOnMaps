@@ -116,7 +116,7 @@ const Destinations = () => {
                         <div className="allItems" key={p.id}>
                             <div className="destinationItem">
                                 <div className="destinationImage">
-                                    <img src={"/images/" + p.img} alt="" />
+                                    <img src={"/images" + p.img} alt="" />
                                     <h3 className="destinationName">
                                         {p.name}
                                     </h3>
