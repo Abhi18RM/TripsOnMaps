@@ -29,7 +29,7 @@ const Wedding = () => {
                         <img src={`/images/weddings/italy.png`} alt="" />
                     </div>
                     <div className="leftInfo">
-                        <h3>The Amalfi Coast, Italy</h3>
+                        <h3>The Amalfi Coast</h3>
                     </div>
                 </div>
                 <div className="weddingCenter">
@@ -45,7 +45,7 @@ const Wedding = () => {
                         <img src={"/images/weddings/greece.png"} alt="" />
                     </div>
                     <div className="centerInfo">
-                        <h3>Santorini, Greece</h3>
+                        <h3>Santorini</h3>
                     </div>
                 </div>
                 <div className="weddingRight">
@@ -53,7 +53,7 @@ const Wedding = () => {
                         <img src={"/images/weddings/spain.png"} alt="" />
                     </div>
                     <div className="rightInfo">
-                        <h3>Marbella, Spain</h3>
+                        <h3>Marbella</h3>
                     </div>
                 </div>
             </div>
