@@ -97,8 +97,9 @@ const Destinations = () => {
             <div className="destinationsHead">
                 <h1>Our Most Popular Destinations</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore{" "}
+                    We offer the very best hotels and resorts in the world’s
+                    most glamorous locations to provide you with a true luxury
+                    holiday experience that you’ll never forget.
                 </p>
             </div>
             <div className="destinationsItems">

@@ -73,9 +73,15 @@ const LandingPage = () => {
             </div>
             <div className={`landInfo ${isInfoVisible ? "fade-in" : ""}`}>
                 <p style={{ textAlign: "center" }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    DISCOVER THE WORLD WITH US !! TRIPS ON MAPS is one of the
+                    leading vacation and destination planning company from
+                    Sultanate of Oman.
+                </p>
+                <br />
+                <p>
+                    More years of rich and royal relationships with individual
+                    consumers, corporate clients, airlines, resorts and hotels
+                    etc. over Oman and across the world.
                 </p>
             </div>
             <div className="btn">

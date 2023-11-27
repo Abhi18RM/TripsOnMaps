@@ -12,12 +12,11 @@ const Intro = () => {
                 </div>
                 <div className="info">
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Placeat deserunt hic est expedita alias
-                        consequuntur fuga quod quia, adipisci impedit.
-                        Voluptates quo eveniet maxime sapiente, deleniti eos
-                        excepturi commodi voluptas fugit soluta quod vitae
-                        molestias quidem est nam odit ad.
+                        Trips on Maps ensures all travellers experience the
+                        utmost peace of mind throughout their booking with us by
+                        striving to fulfil every requirement they may have. We
+                        aim to go above and beyond all expectations on every
+                        single one of our tours.
                     </p>
                 </div>
             </div>

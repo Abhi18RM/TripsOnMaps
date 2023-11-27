@@ -43,7 +43,7 @@ const Footer = () => {
                     <div className="footerItem">Contact</div>
                     <div className="footerItem">Phone: 9876543210</div>
                     <div className="footerItem">
-                        Email: tripsonmaps@gmail.com
+                        Email: Info@tripsonmaps.net
                     </div>
                     <div className="footerItem"></div>
                 </div>

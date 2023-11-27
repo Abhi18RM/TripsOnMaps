@@ -7,8 +7,9 @@ const Visa = () => {
             <div className="visaHead">
                 <h1>Our Global Visa Services</h1>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Cumque maxime neque fuga odit necessitatibus?
+                    Make your journey safe in our professionally experienced
+                    hands, committed to provide the highest level of hassle free
+                    service to our clients.
                 </p>
             </div>
             <div className="visaImg">
